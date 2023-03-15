@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    max-width: 1000px;
+    height: 80vh;
+    border:3px solid #000;
+    margin:60px auto;
+}
+
+.mock{
+    border-bottom: 3px solid #000;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wrapper{
+    margin: 20px;
+}
+
+.head{
+    border: 3px solid #000;
+    height: 120px;
+    background-color: blueviolet;
+
+}
+
+.col{
+    height: 50vh;
+    width: 300px;
+    border:3px solid #000;
+}
+
+.col1{
+    background-color: orangered;
+    
+}
+
+.col2{
+    background-color: lime;
+    
+}
+
+.col3{
+    background-color: orange;
+    
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}
